@@ -106,7 +106,7 @@
     }
 
     if (typeof define === 'function' && define.amd) {
-        define([],factory);
+        define('imageMapResizer',[],factory);
     } else if (typeof module === 'object' && typeof module.exports === 'object'){
         module.exports = factory(); //Node for browserfy
     } else {
