@@ -105,14 +105,11 @@
         };
     }
 
+    window.imageMapResize = factory();
+
     if (typeof define === 'function' && define.amd) {
         define('imageMapResizer',[],factory);
-    } else if (typeof module === 'object' && typeof module.exports === 'object'){
-        module.exports = factory(); //Node for browserfy
-    } else {
-        window.imageMapResize = factory();
     }
-
 
     if('jQuery' in window) {
         jQuery.fn.imageMapResize = function $imageMapResizeF(){
