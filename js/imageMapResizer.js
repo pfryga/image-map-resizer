@@ -111,7 +111,7 @@
         define('imageMapResizer',[],factory);
     }
 
-    if('jQuery' in window) {
+    if(typeof window.jQuery !== 'undefined') {
         jQuery.fn.imageMapResize = function $imageMapResizeF(){
             return this.filter('map').each(scaleImageMap).end();
         };

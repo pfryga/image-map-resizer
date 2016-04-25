@@ -1,9 +1,10 @@
 {
   "name": "image-map-resizer",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "homepage": "https://github.com/davidjbradshaw/image-map-resizer",
   "authors": [
-    "David J. Bradshaw <dave@bradshaw.net>"
+    "David J. Bradshaw <dave@bradshaw.net>",
+    "Piotr Fryga <piotr.fryga@gmail.com>"
   ],
   "description": "Keep HTML Image Maps scaled to the size of an image. It detects the window being resized and updates the co-ordinates of the image map.",
   "main": "js/imageMapResizer.min.js",
